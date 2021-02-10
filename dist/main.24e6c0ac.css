@@ -73,6 +73,7 @@ ol {
   width: 50%;
   height: 50%;
   border: 1px solid blue;
+  border-radius: 50%;
   margin-top: 20px;
 }
 #app4 .circle.active {
@@ -86,6 +87,5 @@ ol {
     background-color: blue;
   }
 }
-
 
 /*# sourceMappingURL=main.24e6c0ac.css.map */
