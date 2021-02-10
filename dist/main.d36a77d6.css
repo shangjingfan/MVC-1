@@ -59,22 +59,22 @@ ol {
 #app3 > .square {
   margin-top: 20px;
   border: 1px solid blue;
-  width: 50%;
-  height: 50%;
+  width: 15vw;
+  height: 15vw;
   transition: transform 1s;
 }
 #app3 > .square.active {
-  transform: translateX(100%);
+  transform: translateX(25vw);
 }
 
 #app4 {
 }
 #app4 .circle {
-  width: 50%;
-  height: 50%;
-  border: 1px solid blue;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
-  margin-top: 20px;
+  border: 1px solid blue;
+  margin: 20px;
 }
 #app4 .circle.active {
   animation: changeColor 2s infinite alternate-reverse ease-in-out;
@@ -88,4 +88,5 @@ ol {
   }
 }
 
-/*# sourceMappingURL=main.24e6c0ac.css.map */
+
+/*# sourceMappingURL=main.d36a77d6.css.map */

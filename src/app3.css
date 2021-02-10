@@ -3,10 +3,10 @@
 #app3 > .square {
   margin-top: 20px;
   border: 1px solid blue;
-  width: 50%;
-  height: 50%;
+  width: 15vw;
+  height: 15vw;
   transition: transform 1s;
 }
 #app3 > .square.active {
-  transform: translateX(100%);
+  transform: translateX(25vw);
 }
