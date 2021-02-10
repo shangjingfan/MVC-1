@@ -1,0 +1,12 @@
+body {
+  overflow: hidden;
+}
+body > .pages {
+  display: flex;
+  flex-wrap: wrap;
+}
+body > .pages > section {
+  border: 1px solid blue;
+  width: 50vw;
+  height: 50vh;
+}

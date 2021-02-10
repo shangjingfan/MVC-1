@@ -1,0 +1,91 @@
+body {
+  overflow: hidden;
+}
+body > .pages {
+  display: flex;
+  flex-wrap: wrap;
+}
+body > .pages > section {
+  border: 1px solid blue;
+  width: 50vw;
+  height: 50vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#app1 {
+}
+#app1 > button {
+  padding: 2px 4px;
+}
+
+#app2 > .tab {
+  display: flex;
+  /* border: 1px solid red; */
+}
+#app2 > .tab > li {
+  border: 1px solid black;
+  width: 50%;
+}
+#app2 > .tab > li.active {
+  background-color: blue;
+  color: white;
+}
+
+#app2 > .content > li {
+  display: none;
+}
+#app2 > .content > li.active {
+  display: block;
+}
+
+#app3 {
+}
+#app3 > .square {
+  margin-top: 20px;
+  border: 1px solid blue;
+  width: 50%;
+  height: 50%;
+  transition: transform 1s;
+}
+#app3 > .square.active {
+  transform: translateX(100%);
+}
+
+#app4 {
+}
+#app4 .circle {
+  width: 50%;
+  height: 50%;
+  border: 1px solid blue;
+  margin-top: 20px;
+}
+#app4 .circle.active {
+  animation: changeColor 2s infinite alternate-reverse ease-in-out;
+}
+@keyframes changeColor {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+
+/*# sourceMappingURL=main.24e6c0ac.css.map */
